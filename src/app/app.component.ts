@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
   standalone: true,
   imports: [CommonModule, MapComponent],
   providers: [HttpClient],
-  templateUrl: 'app.component.html' ,
+  templateUrl: './app.component.html' ,
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {}
